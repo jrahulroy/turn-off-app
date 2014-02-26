@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>settingsFlyout</title>
+
+    <!-- WinJS references -->
+    <link rel="stylesheet" href="//Microsoft.WinJS.0.6/css/ui-dark.css" />
+    <script src="//Microsoft.WinJS.0.6/js/base.js"></script>
+    <script src="//Microsoft.WinJS.0.6/js/ui.js"></script>
+    
+    <link rel="stylesheet" href="/css/default.css">
+</head>
+<body>
+    <!-- Settings charm content -->
+    <div id="settingsDiv" data-win-control="WinJS.UI.SettingsFlyout" data-win-options="{width:'narrow'}">
+        <div class="win-label">
+            <button type="button" onclick="GameManager.showPreferences()" class="win-backbutton"></button>
+            <span id="settingsTitle">Configuration</span>
+        </div>
+        <div class="win-content">
+            <div class="settingLabel">Player name</div>
+            <input type="text" id="settingPlayerName" style="width: 150px;" value="Player" /> <button onclick="GameManager.game.setSettings()" style="width:65px;">Update</button> 
+            <br />
+            <div class="settingLabel">Sound volume</div>
+            <input type="range" id="settingSoundVolume" min="0" max="100" value="100" style="width: 260px;" onchange="GameManager.game.setSettings()" />
+            <br/>
+            <div class="settingLabel">Skill level</div>
+            <label><input type="radio" name="settingSkillLevel" value="0" onchange="GameManager.game.setSettings()" checked/> Basic</label><br />
+            <label><input type="radio" name="settingSkillLevel" value="1" onchange="GameManager.game.setSettings()"/> Intermediate</label><br />
+            <label><input type="radio" name="settingSkillLevel" value="2" onchange="GameManager.game.setSettings()"/> Advanced</label><br />
+        </div>
+    </div>
+</body>
+</html>

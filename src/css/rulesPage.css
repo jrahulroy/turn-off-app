@@ -1,0 +1,15 @@
+.rulesPage #rules {
+    margin-left: 120px;
+    overflow-style: auto;
+    overflow-y: auto;
+}
+
+
+@media screen and (-ms-view-state: snapped)
+{
+    .rulesPage #rules {
+        margin-left: 30px;
+        overflow-style: auto;
+        overflow-y: auto;
+    }
+}

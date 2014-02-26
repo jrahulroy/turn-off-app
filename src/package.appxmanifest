@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="Microsoft.SDKSamples.SampleGameJS" Version="1.0.0.1" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" />
+  <Properties>
+    <DisplayName>Imagine Cup: Code Wars - Lights Off</DisplayName>
+    <Description>Can you turn all the Lights Off</Description>
+    <PublisherDisplayName>CodeWars : Imagine Cup</PublisherDisplayName>
+    <Logo>images\storeLogo-sdk.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2</OSMinVersion>
+    <OSMaxVersionTested>6.2</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="en-uS" />
+  </Resources>
+  <Applications>
+    <Application Id="App" StartPage="default.html">
+      <VisualElements DisplayName="Lights Off" Logo="images\squareTile-sdk.png" SmallLogo="images\smallTile-sdk.png" Description="Can you turn all the Lights Off" ForegroundText="light" BackgroundColor="#FFFFFF">
+        <DefaultTile ShortName="LightsOff" ShowName="allLogos" />
+        <SplashScreen Image="images\splash-sdk.png" />
+      </VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <!-- TODO: internetClient capability should be removed if your game does not need to access the internet -->
+    <Capability Name="internetClient" />
+  </Capabilities>
+</Package>

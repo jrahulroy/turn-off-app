@@ -1,0 +1,14 @@
+.creditsPage #credits {
+    margin-left: 120px;
+    overflow-style: auto;
+    overflow-y: auto;
+}
+
+@media screen and (-ms-view-state: snapped)
+{
+    .creditsPage #credits {
+        margin-left: 30px;
+        overflow-style: auto;
+        overflow-y: auto;
+    }
+}

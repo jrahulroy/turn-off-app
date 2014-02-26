@@ -1,0 +1,13 @@
+C:\Users\Rahul\Desktop\Final\JavaScript and HTML5 touch game sample\JavaScript\bin\Debug\resources.pri
+C:\Users\Rahul\Desktop\Final\JavaScript and HTML5 touch game sample\JavaScript\bin\Debug\AppxManifest.xml
+C:\Users\Rahul\Desktop\Final\JavaScript and HTML5 touch game sample\JavaScript\bin\Debug\LightsOff.build.appxrecipe
+C:\Users\Rahul\Desktop\Final\JavaScript and HTML5 touch game sample\JavaScript\bld\Debug\priconfig.xml.intermediate
+C:\Users\Rahul\Desktop\Final\JavaScript and HTML5 touch game sample\JavaScript\bld\Debug\layout.resfiles.intermediate
+C:\Users\Rahul\Desktop\Final\JavaScript and HTML5 touch game sample\JavaScript\bld\Debug\resources.resfiles.intermediate
+C:\Users\Rahul\Desktop\Final\JavaScript and HTML5 touch game sample\JavaScript\bld\Debug\pri.resfiles.intermediate
+C:\Users\Rahul\Desktop\Final\JavaScript and HTML5 touch game sample\JavaScript\bld\Debug\priconfig.xml
+C:\Users\Rahul\Desktop\Final\JavaScript and HTML5 touch game sample\JavaScript\bld\Debug\layout.resfiles
+C:\Users\Rahul\Desktop\Final\JavaScript and HTML5 touch game sample\JavaScript\bld\Debug\resources.resfiles
+C:\Users\Rahul\Desktop\Final\JavaScript and HTML5 touch game sample\JavaScript\bld\Debug\pri.resfiles
+C:\Users\Rahul\Desktop\Final\JavaScript and HTML5 touch game sample\JavaScript\bld\Debug\LanguageQualifiers.txt
+C:\Users\Rahul\Desktop\Final\JavaScript and HTML5 touch game sample\JavaScript\bld\Debug\ProjectArchitectures.txt

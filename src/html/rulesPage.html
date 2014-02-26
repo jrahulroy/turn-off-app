@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>rulesPage</title>
+    
+    <!-- WinJS references -->
+    <link rel="stylesheet" href="//Microsoft.WinJS.0.6/css/ui-dark.css" />
+    <script src="//Microsoft.WinJS.0.6/js/base.js"></script>
+    <script src="//Microsoft.WinJS.0.6/js/ui.js"></script>
+    
+    <link rel="stylesheet" href="/css/default.css" />
+    <link rel="stylesheet" href="/css/rulesPage.css" />
+    <script src="/js/rulesPage.js"></script>
+</head>
+<body>
+    <div class="fragment rulesPage">
+        <header aria-label="Header content" role="banner">
+            <button class="win-backbutton backButton" aria-label="Back" disabled></button>
+            <div class="titleArea">
+                <h1 class="pageTitle win-title">Rules</h1>
+            </div>
+        </header>
+        <section id="rules" aria-label="Main content" role="main">
+            <h2>Object of the game</h2>
+            <p>To Turn all the Lights Off with Maximum Score.</p>
+            <h2>How to play</h2>
+            <p>The game consists of 5x5 grid board, each grid corresponding to a light. Which can be in either on state or off state. A filled circle indicates on and a blank circle indicates off. </p> <p>The game starts with a random number of lights switched on. The Main goal of player is to switch all of these lights off in minimum time and moves, with the following constraint<br />
+When you click on a light, the state of itself and its neighbours (top, left, right and bottom) gets inversed.</p><p>
+The Score Calculated for each move = Number of Lights Switched Off due to this move  
+– Number of Lights Switched On due to this move
+</p>
+        </section>
+    </div>
+</body>
+</html>
